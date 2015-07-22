@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "OAStackView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "Porting UIStackView to iOS 7+."
   s.description      = <<-DESC
   iOS 9 introduced the very cool [UIStackView](https://developer.apple.com/library/prerelease/ios/documentation/UIKit/Reference/UIStackView_Class_Reference/), UIStackView can be used to easily create simple and complex layouts.
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Omar Abdelhafith" => "o.arrabi@me.com" }
-  s.source           = { :git => "https://github.com/oarrabi/OAStackView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/labxo/OAStackView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
